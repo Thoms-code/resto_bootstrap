@@ -1,1 +1,40 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+//Color variable
+
+//Body
+body {
+  font-family: Poppins, sans-serif;
+  background-color: black;
+  height: 100vh;
+}
+//navbar
+.navbar {
+  .active {
+    //padding-bottom: 1px;
+    border: solid 2px white;
+    cursor: default;
+    &:hover {
+      border-bottom: solid 2px white;
+
+    }
+  }
+  li {
+  }
+  a {
+    color: black;
+    border: solid 2px transparent;
+    border-radius: 5px;
+    &:hover {
+      border: solid 2px white;
+    }
+  }
+  .navbar-brand {
+    &:hover {
+      background-color: initial;
+      border: solid 2px transparent;
+    }
+  }
+}
+// index.html

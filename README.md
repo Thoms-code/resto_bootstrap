@@ -17,6 +17,10 @@ https://thoms-code.github.io/resto_bootstrap/
 > - Add Favicon
 > - Add Navbar
 > - Add logo
+> 
+> v.0.3
+> - Change design for darkmode
+> - Welcome page done
 
 ## Missions objectives
 
