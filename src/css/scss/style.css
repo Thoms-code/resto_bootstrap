@@ -10786,7 +10786,7 @@ body {
 .navbar a {
   color: black;
   border: solid 2px transparent;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .navbar a:hover {
   border: solid 2px white;

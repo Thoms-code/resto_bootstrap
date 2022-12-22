@@ -9,37 +9,88 @@
     <link rel="shortcut icon" href="../../assets/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="../css/scss/style.css">
 </head>
+<script src="../js/bootstrap.bundle.js"></script>
 <body style="background-color: #121e2a">
 <!--Navbar-->
 <nav style="background-color: #121e2a" class="navbar navbar-expand-lg border-bottom navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../../index.html">
-                <img src="../../assets/logo_nightmode.svg" alt="logo_navbar" width="50">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="../../index.html">Welcome</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light active">Menu<span class="badge text-bg-info ms-1 align-middle">Promo!</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="./restaurant.html">Restaurant</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="./pictures.html">Pictures</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="./contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html">
+            <img src="../../assets/logo_nightmode.svg" alt="logo_navbar" width="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-light mx-1 px-2" href="../../index.html">Welcome</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light mx-1 px-2 active">Menu<span class="badge text-bg-info ms-1 align-middle">Promo!</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light mx-1 px-2" href="./restaurant.html">Restaurant</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light mx-1 px-2" href="./pictures.html">Pictures</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light mx-1 px-2" href="./contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
+<!--Main-->
+<main class="col-lg-8 col-md-10 col-sm-10 col-10 mt-5 mx-auto">
+<!--Title-->
+    <h1 class="text-light text-center">🌯 Tell me what you eat, I'll tell you who you are! 🌮</h1>
+<!--list group-->
+<!--Mobile-->
+    <div class="list-group mt-5 col-md-10 col-lg-8 mx-auto">
+        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">The BeCode Tacos 🌮 <span class="badge align-middle  p-1 text-bg-info">2 + 1 FREE</span></h5>
+                <small><span class="badge rounded-pill p-2 text-bg-danger">4$</span>
+                </small>
+
+            </div>
+            <p class="mb-1">Simply the best</p>
+            <small>beef , chicken , vegan</small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">The Durum 🌯</h5>
+                <small class="text-muted"><span class="badge rounded-pill p-2 text-bg-danger">4$</span></small>
+            </div>
+            <p class="mb-1">salad, tomato, onions chef!</p>
+            <small>all crudites | vegan or meat</small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Belgium fries 🍟</h5>
+                <small><span class="badge rounded-pill p-2 text-bg-danger">3$</span></small>
+            </div>
+            <p class="mb-1">Straight from the flat country</p>
+            <small>with or without salt | homemade sauce</small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Le jambon-beurre 🥪</h5>
+                <small><span class="badge rounded-pill p-2 text-bg-danger">3$</span></small>
+            </div>
+            <p class="mb-1">Oui, oui, BAGUETTE!</p>
+            <small>with ham and .... butter</small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">The Water Carafe 🐭</h5>
+                <small><span class="badge rounded-pill p-2 text-bg-danger">FREE</span></small>
+            </div>
+            <p class="mb-1">directly from the source of the valve</p>
+            <small>water (and chlorine)</small>
+        </a>
+    </div>
+</main>
 </body>
-<script src="../js/bootstrap.bundle.js"></script>
 </html>

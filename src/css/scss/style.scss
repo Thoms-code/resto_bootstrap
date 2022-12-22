@@ -9,6 +9,11 @@ body {
   background-color: black;
   height: 100vh;
 }
+//main
+
+
+
+
 //navbar
 .navbar {
   .active {
@@ -25,7 +30,7 @@ body {
   a {
     color: black;
     border: solid 2px transparent;
-    border-radius: 5px;
+    border-radius: 10px;
     &:hover {
       border: solid 2px white;
     }
@@ -38,3 +43,5 @@ body {
   }
 }
 // index.html
+
+//menu.html
