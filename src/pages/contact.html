@@ -8,6 +8,9 @@
     <title>Contact | beCode Tacos</title>
     <link rel="shortcut icon" href="../../assets/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="../css/scss/style.css">
+<!--    recaptcha-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 <body style="background-color: #121e2a">
 <!--Navbar-->
@@ -25,7 +28,7 @@
                         <a class="nav-link text-light mx-1 px-2" href="../../index.html">Welcome</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light mx-1 px-2" href="./menu.html">Menu<span class="badge text-bg-info ms-1 align-middle">Promo!</a>
+                        <a class="nav-link text-light mx-1 px-2" href="./menu.html">Menu<span class="badge text-bg-info ms-1 align-middle">Promo!</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light mx-1 px-2" href="./pictures.html">Pictures</a>
@@ -40,6 +43,49 @@
             </div>
         </div>
     </nav>
+<!--Main-->
+<main class="col-12 col-sm-9 col-md-9 col-lg-6 mx-auto">
+<!--Title-->
+    <h1 class="text-center text-light mt-4">Contact us !</h1>
+<!--    form-->
+    <form class="col-9 mx-auto mt-3">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-light">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="patrick.bateman@caramail.fr">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-light">Your Firstname</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Barrack">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-light">Your Lastname</label>
+            <input type="text" class="form-control" id="exampleInputPassword2" placeholder="Obama">
+        </div>
+        <label class="form-label text-light">Categories</label>
+        <select class="form-select mb-3" aria-label="Default select example">
+            <option selected>What is my request?</option>
+            <option value="1">I want some information</option>
+            <option value="2">I have a complaint</option>
+            <option value="3">Special offers</option>
+            <option value="4">About events</option>
+        </select>
+        <label class="form-label text-light">Your Question</label>
+
+        <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Ask your question here" id="floatingTextarea" style="height: 100px">></textarea>
+        </div>
+        <form action="?" method="POST">
+            <div class="g-recaptcha" data-sitekey="6Lf1uaAjAAAAAM83y3qWe5mF8mqeufM2RHANr3C1"></div>
+            <br/>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label text-light" for="exampleCheck1">I want the newsletter</label>
+        </div>
+            <input class="btn btn-primary mb-3" type="submit" value="Submit">
+        </form>
+    </form>
+</main>
 </body>
 <script src="../js/bootstrap.bundle.js"></script>
 </html>

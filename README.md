@@ -31,6 +31,9 @@ https://thoms-code.github.io/resto_bootstrap/
 > 
 > v0.5
 > - restaurant.html done
+> 
+> v0.6
+> - contact.html done
 
 ## Missions objectives
 
