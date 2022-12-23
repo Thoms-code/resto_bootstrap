@@ -25,13 +25,13 @@
                         <a class="nav-link text-light mx-1 px-2" href="../../index.html">Welcome</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light mx-1 px-2" href="./menu.html">Menu<span class="badge text-bg-info ms-1 align-middle">Promo!</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light mx-1 px-2 active">Restaurant</a>
+                        <a class="nav-link text-light mx-1 px-2" href="./menu.html">Menu<span class="badge text-bg-info ms-1 align-middle">Promo!</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light mx-1 px-2" href="./pictures.html">Pictures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light mx-1 px-2 active">Restaurant</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light mx-1 px-2" href="./contact.html">Contact</a>
@@ -40,7 +40,203 @@
             </div>
         </div>
     </nav>
-
+<!--Main-->
+<main class="col-12 col-md-8 mx-auto">
+<!--Title-->
+    <h1 class="mx-auto mt-3 mb-2 text-center text-light">🎉 Tacos Everywhere !</h1>
+    <h6 class="text-center text-light">Choose your restaurant</h6>
+<!--Tabs-->
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link text-light active" id="brussels-tab" data-bs-toggle="tab" data-bs-target="#brussels-tab-pane" type="button" role="tab" aria-controls="brussels-tab-pane" aria-selected="true">Brussels</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link text-light" id="charleroi-tab" data-bs-toggle="tab" data-bs-target="#charleroi-tab-pane" type="button" role="tab" aria-controls="charleroi-tab-pane" aria-selected="false">Charleroi</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link text-light" id="liege-tab" data-bs-toggle="tab" data-bs-target="#liege-tab-pane" type="button" role="tab" aria-controls="liege-tab-pane" aria-selected="false">Liège</button>
+        </li>
+    </ul>
+<!--    brussels tab-->
+    <div class="tab-content mt-3" id="myTabContent">
+        <div class="col-10 mx-auto tab-pane fade show active" id="brussels-tab-pane" role="tabpanel" aria-labelledby="brussels-tab" tabindex="0">
+            <h3 class="text-light text-center mx-auto my-2">Schedule</h3>
+<!--            table mobile-->
+            <table class="table text-light d-md-table d-lg-none">
+                <thead>
+                <tr>
+                    <th scope="col">WeekDay</th>
+                    <th scope="col">Weekend</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>7h00-13h00</td>
+                    <td>9h00-13h00</td>
+                </tr>
+                <tr>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                </tr>
+                </tbody>
+            </table>
+<!--            table ipad-->
+            <table class="table text-light d-none d-md-none d-lg-table">
+                <thead>
+                <tr>
+                    <th scope="col">Mo.</th>
+                    <th scope="col">Tu</th>
+                    <th scope="col">We</th>
+                    <th scope="col">Th</th>
+                    <th scope="col">Fr</th>
+                    <th scope="col">Weekend</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>7h00-13h00</td>
+                    <td>9h00-13h00</td>
+                    <td>7h00-13h00</td>
+                    <td>7h00-13h00</td>
+                    <td>7h00-13h00</td>
+                    <td>9h00-13h00</td>
+                </tr>
+                <tr>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="text-light text-center mx-auto">
+                <h4>Adress</h4>
+                <p>Cantersteen 10, 1000 Brussels</p>
+            </div>
+            <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.2337820363655!2d4.355096315741072!3d50.84535497953179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c47fd1d960c1%3A0xcbd18b1ea8412062!2sBeCode%20Brussels!5e0!3m2!1sen!2sbe!4v1589838061477!5m2!1sen!2sbe"></iframe>
+        </div>
+<!--        Charleroi tabs-->
+        <div class="col-10 mx-auto tab-pane fade" id="charleroi-tab-pane" role="tabpanel" aria-labelledby="charleroi-tab" tabindex="0">
+            <h3 class="text-light text-center mx-auto my-2">Schedule</h3>
+<!--            table mobile-->
+            <table class="table text-light d-md-table d-lg-none">
+                <thead>
+                <tr>
+                    <th scope="col">WeekDay</th>
+                    <th scope="col">Weekend</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>7h00-13h00</td>
+                    <td>9h00-13h00</td>
+                </tr>
+                <tr>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                </tr>
+                </tbody>
+            </table>
+<!--            table ipad-->
+            <table class="table text-light d-none d-md-none d-lg-table">
+                <thead>
+                <tr>
+                    <th scope="col">Mo.</th>
+                    <th scope="col">Tu</th>
+                    <th scope="col">We</th>
+                    <th scope="col">Th</th>
+                    <th scope="col">Fr</th>
+                    <th scope="col">Weekend</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>7h00-13h00</td>
+                    <td>9h00-13h00</td>
+                    <td>7h00-13h00</td>
+                    <td>7h00-13h00</td>
+                    <td>7h00-13h00</td>
+                    <td>9h00-13h00</td>
+                </tr>
+                <tr>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="text-light text-center mx-auto">
+                <h4>Adress</h4>
+                <p>Square des Martyrs, 1 c/o A6K, 6000 Charleroi</p>
+            </div>
+            <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10171.689552129501!2d4.4399055!3d50.405284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38f706c7ffab5a0c!2sBeCode%20Charleroi!5e0!3m2!1sen!2sbe!4v1589837793679!5m2!1sen!2sbe"></iframe>
+        </div>
+<!--        Liege tab-->
+        <div class="col-10 mx-auto tab-pane fade" id="liege-tab-pane" role="tabpanel" aria-labelledby="liege-tab" tabindex="0">
+            <h3 class="text-light text-center mx-auto my-2">Schedule</h3>
+<!--            table mobile-->
+            <table class="table text-light d-md-table d-lg-none">
+                <thead>
+                <tr>
+                    <th scope="col">WeekDay</th>
+                    <th scope="col">Weekend</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>7h00-13h00</td>
+                    <td>9h00-13h00</td>
+                </tr>
+                <tr>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                </tr>
+                </tbody>
+            </table>
+<!--            table ipad-->
+            <table class="table text-light d-none d-md-none d-lg-table">
+                <thead>
+                <tr>
+                    <th scope="col">Mo.</th>
+                    <th scope="col">Tu</th>
+                    <th scope="col">We</th>
+                    <th scope="col">Th</th>
+                    <th scope="col">Fr</th>
+                    <th scope="col">Weekend</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>7h00-13h00</td>
+                    <td>9h00-13h00</td>
+                    <td>7h00-13h00</td>
+                    <td>7h00-13h00</td>
+                    <td>7h00-13h00</td>
+                    <td>9h00-13h00</td>
+                </tr>
+                <tr>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                    <td>13h00-19h00</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="text-light text-center mx-auto">
+                <h4>Adress</h4>
+                <p>Rue de Mulhouse 36, 4020 Liège</p>
+            </div>
+            <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.6813219788028!2d5.584626415733304!3d50.63303657950107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0f118d22c1b85%3A0x47f4b33cb5f3e2bf!2sBeCode%20Li%C3%A8ge!5e0!3m2!1sen!2sbe!4v1589819196639!5m2!1sen!2sbe"></iframe>
+        </div>
+    </div>
+</main>
 </body>
 <script src="../js/bootstrap.bundle.js"></script>
 </html>

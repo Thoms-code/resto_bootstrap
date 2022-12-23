@@ -7,27 +7,30 @@ https://thoms-code.github.io/resto_bootstrap/
 
 
 ## Changelog
-> v 0.1
+> v0.1
 > - Initial commit
 > - Add initial folder
 > - Import bootstrap
 > 
-> v 0.2
+> v0.2
 > - Add Bootstrap js
 > - Add Favicon
 > - Add Navbar
 > - Add logo
 > 
-> v 0.3
+> v0.3
 > - Change design for darkmode
 > - welcome.html Done
 > 
-> v 0.4
+> v0.4
 > - Modify navbar 
 > - menu.html Done
 > 
-> v 0.4.1
+> v0.4.1
 > - menu.html responsive
+> 
+> v0.5
+> - restaurant.html done
 
 ## Missions objectives
 

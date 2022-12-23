@@ -10779,6 +10779,9 @@ textarea.form-control-lg {
   h1, .h1 {
     font-size: 1.5rem;
   }
+  table td {
+    font-size: 0.9em;
+  }
 }
 body {
   font-family: Poppins, sans-serif;
@@ -10814,6 +10817,14 @@ body {
 .img_menu {
   aspect-ratio: 5/5;
   width: 20%;
+}
+
+#myTab li .active {
+  color: black !important;
+}
+
+iframe {
+  height: 43vh !important;
 }
 
 /*# sourceMappingURL=style.css.map */

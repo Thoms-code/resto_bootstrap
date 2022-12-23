@@ -10,6 +10,11 @@
   h1 {
     font-size: 1.5rem;
   }
+  table {
+    td {
+      font-size: 0.9em;
+    }
+  }
 }
 
 //Color variable
@@ -68,4 +73,15 @@ body {
 .img_menu {
   aspect-ratio: 5/5;
   width: 20%;
+}
+//Restaurant.html
+#myTab {
+  li {
+    .active {
+      color: black !important;
+    }
+  }
+}
+iframe {
+  height: 43vh !important;
 }
