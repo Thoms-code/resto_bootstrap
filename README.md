@@ -34,6 +34,9 @@ https://thoms-code.github.io/resto_bootstrap/
 > 
 > v0.6
 > - contact.html done
+> 
+> v0.7
+> - pictures.html done
 
 ## Missions objectives
 
