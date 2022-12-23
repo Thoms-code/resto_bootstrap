@@ -10770,6 +10770,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@media screen and (max-width: 1490px) {
+  h1, .h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1205px) {
+  h1, .h1 {
+    font-size: 1.5rem;
+  }
+}
 body {
   font-family: Poppins, sans-serif;
   background-color: black;
@@ -10794,6 +10804,16 @@ body {
 .navbar .navbar-brand:hover {
   background-color: initial;
   border: solid 2px transparent;
+}
+
+.list-group .active {
+  background-color: white !important;
+  color: #121e2a !important;
+}
+
+.img_menu {
+  aspect-ratio: 5/5;
+  width: 20%;
 }
 
 /*# sourceMappingURL=style.css.map */

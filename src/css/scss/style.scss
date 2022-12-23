@@ -1,6 +1,17 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@media screen and (max-width: 1490px){
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1205px){
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
 //Color variable
 
 //Body
@@ -45,3 +56,16 @@ body {
 // index.html
 
 //menu.html
+
+.list-group {
+  .list-group-item {
+  }
+  .active {
+    background-color: white !important;
+    color: #121e2a !important;
+  }
+}
+.img_menu {
+  aspect-ratio: 5/5;
+  width: 20%;
+}

@@ -25,6 +25,9 @@ https://thoms-code.github.io/resto_bootstrap/
 > v 0.4
 > - Modify navbar 
 > - menu.html Done
+> 
+> v 0.4.1
+> - menu.html responsive
 
 ## Missions objectives
 

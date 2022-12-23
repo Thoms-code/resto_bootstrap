@@ -44,15 +44,16 @@
 <!--Main-->
 <main class="col-lg-8 col-md-10 col-sm-10 col-10 mt-5 mx-auto">
 <!--Title-->
-    <h1 class="text-light text-center">🌯 Tell me what you eat, I'll tell you who you are! 🌮</h1>
-<!--list group-->
-    <div class="list-group my-5 col-md-10 col-lg-8 mx-auto">
+    <h1 class="text-light text-center d-none d-sm-none d-md-block">🌯 Tell me what you eat, I'll tell you who you are! 🌮</h1>
+    <h1 class="text-light text-center d-md-none d-lg-none">The Menu 🌮</h1>
+
+    <!--list group mobile-->
+    <div class="list-group my-5 col-md-10 col-lg-8 mx-auto d-md-none d-lg-none">
         <a href="#" class="list-group-item list-group-item-action" aria-current="true">
             <div class="d-flex w-100 justify-content-between">
                 <h5 class="mb-1">The BeCode Tacos 🌮 <span class="badge align-middle  p-1 text-bg-info">2 + 1 FREE</span></h5>
                 <small><span class="badge rounded-pill p-2 text-bg-danger">4$</span>
                 </small>
-
             </div>
             <p class="mb-1">Simply the best</p>
             <small>beef , chicken , vegan</small>
@@ -90,6 +91,75 @@
             <small>water (and chlorine)</small>
         </a>
     </div>
+<!--list group ipad/desktop-->
+    <div class="row d-none d-sm-none d-md-flex mx-auto my-5">
+        <div class="col-4 mx-auto ms-5">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action rounded-3 my-1 text-light bg-transparent border border-2 active" id="list-menu-1-list" data-bs-toggle="list" href="#list-menu-1" role="tab" aria-controls="list-menu-1">The BeCode Tacos 🌮</a>
+                <a class="list-group-item list-group-item-action rounded-3 my-1 text-light bg-transparent border border-2" id="list-menu-2-list" data-bs-toggle="list" href="#list-menu-2" role="tab" aria-controls="list-menu-2">The Durum 🌯</a>
+                <a class="list-group-item list-group-item-action rounded-3 my-1 text-light bg-transparent border border-2" id="list-menu-3-list" data-bs-toggle="list" href="#list-menu-3" role="tab" aria-controls="list-menu-3">Belgium fries 🍟</a>
+                <a class="list-group-item list-group-item-action rounded-3 my-1 text-light bg-transparent border border-2" id="list-menu-4-list" data-bs-toggle="list" href="#list-menu-4" role="tab" aria-controls="list-menu-4">Le jambon-beurre 🥪</a>
+                <a class="list-group-item list-group-item-action rounded-3 my-1 text-light bg-transparent border border-2" id="list-menu-5-list" data-bs-toggle="list" href="#list-menu-5" role="tab" aria-controls="list-menu-5">The Water Carafe 🐭</a>
+            </div>
+        </div>
+        <div class="col-7 justify-content-center mx-auto">
+            <div class="tab-content text-light my-1" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-menu-1" role="tabpanel" aria-labelledby="list-menu-1-list">
+                    <h3>Simply the best</h3>
+                    <span class="badge p-2 text-bg-info">2 + 1 FREE</span>
+                    <span class="badge p-2 text-bg-danger">4$</span>
+                    <p class="my-1">beef , chicken , vegan</p>
+                    <div class="row">
+                        <img src="../../assets/menu/tacos/tacos_1.jpg" class="img_menu col-3 rounded-3 border border-4 overflow-hidden mx-1 my-1 ms-2 px-0" alt="tacos1">
+                        <img src="../../assets/menu/tacos/tacos_2.jpg" class="img_menu col-3 rounded-3 border border-4 overflow-hidden mx-1 my-1 ms-2 px-0" alt="tacos2">
+                        <img src="../../assets/menu/tacos/tacos_3.jpg" class="img_menu col-3 rounded-3 border border-4 overflow-hidden mx-1 my-1 ms-2 px-0" alt="tacos3">
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="list-menu-2" role="tabpanel" aria-labelledby="list-menu-2-list"><h3>Salad, tomato, onions chef!</h3>
+                    <span class="badge p-2 text-bg-danger">4$</span>
+                    <p class="my-1">all crudites | vegan or meat</p>
+                    <div class="row">
+                        <img src="../../assets/menu/durum/durum_1.webp" class="img_menu col-3 rounded-3 border border-4 overflow-hidden mx-1 my-1 ms-2 px-0" alt="tacos1">
+                        <img src="../../assets/menu/durum/durum_2.jpg" class="img_menu col-3 rounded-3 border border-4 overflow-hidden mx-1 my-1 ms-2 px-0" alt="tacos2">
+                        <img src="../../assets/menu/durum/durum_3.jpg" class="img_menu col-3 rounded-3 border border-4 overflow-hidden mx-1 my-1 ms-2 px-0" alt="tacos3">
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="list-menu-3" role="tabpanel" aria-labelledby="list-menu-3-list"><h3>Straight from the flat country</h3>
+                    <span class="badge p-2 text-bg-danger">3$</span>
+                    <p class="my-1">with or without salt | homemade sauce</p>
+                    <div class="row">
+                        <img src="../../assets/menu/fries/fries_1.webp" class="img_menu col-3 rounded-3 border border-4 overflow-hidden mx-1 my-1 ms-2 px-0" alt="tacos1">
+                        <img src="../../assets/menu/fries/fries_2.jpg" class="img_menu col-3 rounded-3 border border-4 overflow-hidden mx-1 my-1 ms-2 px-0" alt="tacos2">
+                        <img src="../../assets/menu/fries/fries_3.jpg" class="img_menu col-3 rounded-3 border border-4 overflow-hidden mx-1 my-1 ms-2 px-0" alt="tacos3">
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="list-menu-4" role="tabpanel" aria-labelledby="list-menu-4-list"><h3>Oui, oui, BAGUETTE!</h3>
+                    <span class="badge p-2 text-bg-danger">3$</span>
+                    <p class="my-1">with ham and .... butter</p>
+                    <div class="row">
+                        <img src="../../assets/menu/jb/jb_1.jpg" class="img_menu col-3 rounded-3 border border-4 overflow-hidden mx-1 my-1 ms-2 px-0" alt="tacos1">
+                        <img src="../../assets/menu/jb/jb_2.jpg" class="img_menu col-3 rounded-3 border border-4 overflow-hidden mx-1 my-1 ms-2 px-0" alt="tacos2">
+                        <img src="../../assets/menu/jb/jb_3.webp" class="img_menu col-3 rounded-3 border border-4 overflow-hidden mx-1 my-1 ms-2 px-0" alt="tacos3">
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="list-menu-5" role="tabpanel" aria-labelledby="list-menu-5-list"><h3>directly from the source of the valve</h3>
+                    <span class="badge p-2 text-bg-danger">FREE</span>
+                    <p class="my-1">water (and chlorine)</p>
+                    <div class="row">
+                        <img src="../../assets/menu/caraffe_water/cw_1.webp" class="img_menu col-3 rounded-3 border border-4 overflow-hidden mx-1 my-1 ms-2 px-0" alt="tacos1">
+                        <img src="../../assets/menu/caraffe_water/cw_2.jpg" class="img_menu col-3 rounded-3 border border-4 overflow-hidden mx-1 my-1 ms-2 px-0" alt="tacos2">
+                        <img src="../../assets/menu/caraffe_water/cw_3.jpg" class="img_menu col-3 rounded-3 border border-4 overflow-hidden mx-1 my-1 ms-2 px-0" alt="tacos3">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 </main>
 </body>
 </html>
