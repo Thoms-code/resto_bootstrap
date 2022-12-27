@@ -16,20 +16,12 @@
     }
   }
 }
-
-//Color variable
-
 //Body
 body {
   font-family: Poppins, sans-serif;
   background-color: black;
   height: 100vh;
 }
-//main
-
-
-
-
 //navbar
 .navbar {
   .active {
@@ -38,10 +30,7 @@ body {
     cursor: default;
     &:hover {
       border-bottom: solid 2px white;
-
     }
-  }
-  li {
   }
   a {
     color: black;
@@ -58,10 +47,7 @@ body {
     }
   }
 }
-// index.html
-
 //menu.html
-
 .list-group {
   .list-group-item {
   }
@@ -94,7 +80,6 @@ iframe {
     display: block;
   }
 }
-
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
 .carousel-inner .carousel-item-prev {
@@ -103,18 +88,15 @@ iframe {
 
 /* medium and up screens */
 @media (min-width: 768px) {
-
   .carousel-inner .carousel-item-end.active,
   .carousel-inner .carousel-item-next {
     transform: translateX(25%);
   }
-
   .carousel-inner .carousel-item-start.active,
   .carousel-inner .carousel-item-prev {
     transform: translateX(-25%);
   }
 }
-
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start {
   transform: translateX(0);
