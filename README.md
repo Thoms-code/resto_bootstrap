@@ -5,6 +5,7 @@ TP Bootstrap | The Field
 
 https://thoms-code.github.io/resto_bootstrap/
 
+PS: Recaptcha error because GitHub Pages don't work with Google recaptcha 
 
 ## Changelog
 > v0.1
